@@ -1,0 +1,8 @@
+{
+    "css/frappe_backend/material.css": [
+        "public/less/material.less"
+    ],
+    "css/frappe_backend/custom.css": [
+        "public/less/custom.less"
+    ]
+}
