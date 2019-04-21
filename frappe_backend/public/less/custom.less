@@ -57,8 +57,10 @@ h6.uppercase {
     transition: all 0.2s ease 0s;
   }
 }
-div[data-link*="modules/"].app-icon {
-  border-radius: 0;
+div[data-link*="modules/"] {
+  .app-icon {
+    border-radius: 0;
+  }
 }
 .list-link {
   a[disabled="disabled"] {
@@ -164,7 +166,11 @@ div[data-link*="modules/"].app-icon {
   }
 }
 
-
+.form-dashboard-section {
+  h6 {
+    font-weight: bold;
+  }
+}
 
 @media (min-width: 767px) {
   .page-body {

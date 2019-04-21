@@ -1825,7 +1825,7 @@ html {
   -o-transition: all .30s;
   transition: all .30s;
   border-radius: 0px;
-  border-bottom: 1px solid #989797;
+  border-bottom: 2px solid #bbbbbb;
   border-top: 1px solid rgba(0, 0, 0, 0);
   border-right: 1px solid rgba(0, 0, 0, 0);
   border-left: 1px solid rgba(0, 0, 0, 0);
@@ -1835,18 +1835,18 @@ html {
     outline: 0;
     border-bottom: 2px solid @background_color_12;
     box-shadow: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
   }
 }
 .has-error {
   .form-control {
     border-bottom-color: @border_bottom_color_2;
-    border-top: none;
-    border-left: none;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
     box-shadow: none;
-    border-right: none;
     &:focus {
       box-shadow: none;
     }
@@ -2234,6 +2234,7 @@ body[data-route="desktop"] {
 }
 .like-disabled-input {
   border-radius: 0px;
+  border-bottom: 2px solid #bbbbbb;
 }
 .linked-with-dialog {
   width: 75%;
