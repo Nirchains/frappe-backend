@@ -4,5 +4,8 @@
     ],
     "css/frappe_backend/custom.css": [
         "public/less/custom.less"
+    ],
+    "css/frappe_backend/v13.css": [
+        "public/less/v13.less"
     ]
 }
