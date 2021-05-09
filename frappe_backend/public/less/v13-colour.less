@@ -1,3 +1,20 @@
+
+.bg-light-1 {
+    background-color: #e1f5fe;
+}
+
+.bg-light-2 {
+    background-color: #FFEBEE;
+}
+
+.bg-light-3 {
+    background-color: #F3E5F5;
+}
+
+.bg-light-4 {
+    background-color: #FBE9E7;
+}
+
 #navbar-breadcrumbs > li {
     padding: 20px 3px;
 }
@@ -21,6 +38,26 @@
 .btn, .form-in-grid .btn, .form-in-grid div#driver-popover-item .driver-popover-footer button, div#driver-popover-item .driver-popover-footer .form-in-grid button {
     transition: all 0.5s ease;
     box-shadow: 2px 2px 0px #dedede;
+}
+
+.btn {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btn:disabled {
+	&:hover {
+		background-color: inherit;
+	}
+}
+
+.btn {
+    box-shadow: 2px 2px 0px #bbbbbb !important;
+    border: 1px solid #dedede;
+    &:hover {
+        box-shadow: 2px 2px 0px #dddddd !important;
+    }
 }
 
 .btn.btn-primary {
